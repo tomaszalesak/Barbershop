@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+    <configuration>
+    </configuration>
+    <mapping>
+        <class-a>cz.muni.fi.PA165.barbershop.persistence.entity.Reservation</class-a>
+        <class-b>cz.muni.fi.PA165.barbershop.api.dto.ReservationDTO</class-b>
+        <field>
+            <a>employee</a>
+            <b>employeeDTO</b>
+        </field>
+        <field>
+            <a>customer</a>
+            <b>customerDTO</b>
+        </field>
+        <field>
+            <a>services</a>
+            <b>serviceDTOs</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>cz.muni.fi.PA165.barbershop.persistence.entity.Employee</class-a>
+        <class-b>cz.muni.fi.PA165.barbershop.api.dto.EmployeeDTO</class-b>
+        <field>
+            <a>services</a>
+            <b>serviceDTOs</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>cz.muni.fi.PA165.barbershop.persistence.entity.WorkingHours</class-a>
+        <class-b>cz.muni.fi.PA165.barbershop.api.dto.WorkingHoursDTO</class-b>
+        <field>
+            <a>employee</a>
+            <b>employeeDTO</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>cz.muni.fi.PA165.barbershop.persistence.entity.MyService</class-a>
+        <class-b>cz.muni.fi.PA165.barbershop.api.dto.ServiceDTO</class-b>
+    </mapping>
+</mappings>
