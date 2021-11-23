@@ -8,7 +8,11 @@ have the same attributes as the customers with the addition of their salary. The
 services (e.g., haircut, washing), and they can post their feedback after the service has been provided. The system
 should keep track of the performed service, the duration and price.
 
+### Use case diagram
+
 ![Use case diagram](https://github.com/tomaszalesak/Barbershop/blob/main/doc/BarbershopCD.svg)
+
+### Class diagram
 
 ![Class diagram](https://github.com/tomaszalesak/Barbershop/blob/main/doc/BarbershopCD.svg)
 
