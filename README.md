@@ -1,5 +1,15 @@
 # Barbershop
 
+## Description
+
+Your task is to create an information system supporting the barbershop. For one, the application should keep record of
+customers (their name, surname, address, and phone). The barbershop employees are also kept in the system. The employees
+have the same attributes as the customers with the addition of their salary. The customers can enjoy different
+services (e.g., haircut, washing), and they can post their feedback after the service has been provided. The system
+should keep track of the performed service, the duration and price.
+
+Link for diagrams: 
+
 ## REST API
 
 ### How to use:
@@ -42,15 +52,5 @@ You will also see any lint errors in the console.
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-## Description
-
-Your task is to create an information system supporting the barbershop. For one, the application should keep record of
-customers (their name, surname, address, and phone). The barbershop employees are also kept in the system. The employees
-have the same attributes as the customers with the addition of their salary. The customers can enjoy different
-services (e.g., haircut, washing), and they can post their feedback after the service has been provided. The system
-should keep track of the performed service, the duration and price.
-
-Link for diagram: <Link>https://gitlab.fi.muni.cz/xzich/Barbershop/-/wikis/Diagrams</Link>
 
 
